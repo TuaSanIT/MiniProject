@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Bầu Cua</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="dice-container">
+            <img id="dice1" src="images/baucua/bau.png" alt="dice1" class="dice">
+            <img id="dice2" src="images/baucua/bau.png" alt="dice2" class="dice">
+            <img id="dice3" src="images/baucua/bau.png" alt="dice3" class="dice">
+        </div>
+    </div>
+
+    <div class="betting-container">
+        <div class="bet-item">
+            <span class="bet-count" id="bau-count">0</span>
+            <img src="images/baucua/bau.png" alt="Bầu" id="bet-bau">
+        </div>
+
+        <div class="bet-item">
+            <span class="bet-count" id="ca-count">0</span>
+            <img src="images/baucua/ca.png" alt="Cá" id="bet-ca">
+        </div>
+
+        <div class="bet-item">
+            <span class="bet-count" id="cua-count">0</span>
+            <img src="images/baucua/cua.png" alt="Cua" id="bet-cua">
+        </div>
+
+        <div class="bet-item">
+            <span class="bet-count" id="ga-count">0</span>
+            <img src="images/baucua/ga.png" alt="Gà" id="bet-ga">
+        </div>
+
+        <div class="bet-item">
+            <span class="bet-count" id="huou-count">0</span>
+            <img src="images/baucua/huou.png" alt="Hươu" id="bet-huou">
+        </div>
+
+        <div class="bet-item">
+            <span class="bet-count" id="tom-count">0</span>
+            <img src="images/baucua/tom.png" alt="Tôm" id="bet-tom">
+        </div>
+    </div>
+
+    <div class="button">
+        <button id="quay">Quay</button>
+        <button id="reset">Đặt lại</button>
+    </div>
+
+    <div class="text-container">
+        <h1>Lưu ý:</h1>
+        <h1>- Số lần đặt ở một 'Hình' sẽ là số lần xuất hiện của các 'Hình' trên 'Kết quả'</h1>
+        <h1>- Tổng số điểm đặt trong một lần, tối đa là 3</h1>
+    </div>
+    <script src="JsBauCua.js"></script>
+</body>
+</html>
